@@ -120,6 +120,108 @@ export default function TheBox() {
           </p>
         </div>
       </div>
+
+      <div className="max-w-[1920px] h-[1260px] pt-[98.67px] pl-[152px] relative mt-[112.33px]">
+        <Image
+          src={"theBox/father.svg"}
+          alt="profile"
+          width={1202.67}
+          height={892}
+          className="absolute"
+        />
+        <div className="w-[650.67px] h-[697.33px] bg-[#2947A9] relative pl-[53.33px] ml-[969px] mt-[97.33px] rounded-[2.67px] text-white pt-[66.67px]">
+          <p className="font-bold text-[48px]">About us</p>
+          <p className="mt-[49.33px] text-[26.67px] w-[517.33px] h-[279px] leading-[30px]">
+            For more than 30 years we have been delivering world-class
+            construction and we’ve built many lasting relationships along the
+            way. <br /> <br /> We’ve matured into an industry leader and trusted
+            resource for those seeking quality, innovation and reliability when
+            building in the U.S.
+          </p>
+          <div className="bg-white text-[#2947A9] w-[292.33px] h-[70.67px] rounded-[8px] flex items-center justify-center font-semibold text-2xl mt-[95.67px]">
+            More on Our History
+          </div>
+        </div>
+      </div>
+      <div className="max-w-[1920px] bg-[#F6F8F7] pt-[58.67px]  px-[288px] pb-[101.33px]">
+        <p className="text-[48px] font-bold text-center text-[#292E3D] mb-[48px]">
+          Services
+        </p>
+        <div className="flex justify-between flex-wrap">
+          <div className="w-[361.33px] h-[241.33px] bg-white text-[#2947A9] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/house.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Construction</p>
+          </div>
+          <div className="w-[361.33px] h-[241.33px] text-white bg-[#2947A9] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/git.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Renovation</p>
+          </div>
+          <div className="w-[361.33px] h-[241.33px] bg-white text-[#2947A9] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/handshake.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Consultation</p>
+          </div>
+          <div className="w-[361.33px] h-[241.33px] text-white bg-[#2947A9] mt-[64px] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/bag.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Repair Services</p>
+          </div>
+          <div className="w-[361.33px] h-[241.33px] bg-white mt-[64px] text-[#2947A9] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/architecture.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Architecture</p>
+          </div>
+          <div className="w-[361.33px] h-[241.33px] text-white bg-[#2947A9] mt-[64px] rounded-[5.33px] shadow-xl flex flex-col justify-evenly items-center">
+            <div className="flex flex-col items-center gap-[26.67px]">
+              <Image
+                src={"theBox/electric.svg"}
+                alt="house"
+                width={53.33}
+                height={53.33}
+              />
+              <div className="bg-[#E0E3EB] w-[80px] h-[2.67px]"></div>
+            </div>
+            <p className="font-semibold text-[26.67px]">Electric</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
